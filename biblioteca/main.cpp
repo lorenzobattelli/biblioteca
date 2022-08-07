@@ -58,7 +58,6 @@ int main(int argc, char* argv[]) {
         getline (cin, new_book.title);
         
         cout << "Inserisci autore: ";
-        //cin.ignore(numeric_limits<streamsize>::max(), '\n');
         getline(cin, new_book.author);
         
          for (int i = 0; i < N_KEYS; i++) {
