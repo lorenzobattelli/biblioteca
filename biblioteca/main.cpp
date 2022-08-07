@@ -67,8 +67,7 @@ int main(int argc, char* argv[]) {
              new_book.keywords.push_back(word);
          }
 
-        //printBook(new_book);
-
+        
         books.push_back(new_book);
         
         cout << "Continuare? [y/n]" << endl;
